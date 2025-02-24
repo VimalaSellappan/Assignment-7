@@ -55,7 +55,7 @@ body{
 }
 label{
     display: block;
-    padding: 20px;
+    padding: 15px;
     font-weight:10;
     margin-top: 10px;
 
@@ -79,6 +79,10 @@ input::placeholder
     font-weight: 50;
     
 }
+input:hover{
+    border-color:rgb(129, 25, 12) ;
+    box-shadow: 0 0 8px rgb(129, 25, 12);
+}
 .mailfield, .messageregfield{
     width:40%
 }
@@ -87,10 +91,11 @@ button{
     color: white;
     border-radius: 30px;
     border: none;
-    width: 40%;
+    width: 35%;
     height: 10%;
-    margin-top: 25px;
-    margin-left: 60px;
+    margin-top: 20px;
+    position: absolute;
+    top:80%;
 }
 button:hover{
     background-color: #01292f;
